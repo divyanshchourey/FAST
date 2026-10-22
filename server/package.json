@@ -1,0 +1,20 @@
+{
+  "name": "fast-server",
+  "version": "1.0.0",
+  "description": "Backend API for FAST (Feedback Assessment & Solution Tool)",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "better-sqlite3": "^11.8.1"
+  }
+}
